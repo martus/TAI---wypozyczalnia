@@ -2,3 +2,5 @@
 .DS_Store
 
 tags
+
+/app/tmp/*

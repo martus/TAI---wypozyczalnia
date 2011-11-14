@@ -73,3 +73,6 @@
 #1 D:\Studia\PK\mgr\TAI\wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
 #2 D:\Studia\PK\mgr\TAI\wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2011-11-14 12:57:16 Error: [MissingControllerException] Controller class AaaController could not be found.
+#0 D:\Studia\PK\mgr\TAI\wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
