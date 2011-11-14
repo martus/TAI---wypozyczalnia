@@ -1,0 +1,23 @@
+@CHARSET "UTF-8";
+html, body {
+	margin:0 auto;
+}
+body {
+	width:900px;
+}
+header > img {
+	float:left;
+}
+header > form, header > nav{
+	display:block;
+	float:left;
+	width:350px;
+}
+#categories_menu {
+	clear:both;
+	float:left;
+	width:200px;
+}
+footer {
+	clear:both;
+}

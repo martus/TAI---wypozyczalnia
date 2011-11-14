@@ -1,0 +1,75 @@
+2011-11-13 11:05:48 Error: [MissingViewException] View file "D:\Studia\PK\mgr\TAI\wypozyczalnia\app\View\Films\index.ctp" is missing.
+#0 D:\Studia\PK\mgr\TAI\wypozyczalnia\lib\Cake\View\View.php(363): View->_getViewFileName(NULL)
+#1 D:\Studia\PK\mgr\TAI\wypozyczalnia\lib\Cake\Controller\Controller.php(899): View->render(NULL, NULL)
+#2 D:\Studia\PK\mgr\TAI\wypozyczalnia\lib\Cake\Routing\Dispatcher.php(114): Controller->render()
+#3 D:\Studia\PK\mgr\TAI\wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Studia\PK\mgr\TAI\wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-11-13 11:36:00 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 D:\Studia\PK\mgr\TAI\wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-13 11:36:46 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 D:\Studia\PK\mgr\TAI\wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-13 11:38:48 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 D:\Studia\PK\mgr\TAI\wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-13 11:38:59 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 D:\Studia\PK\mgr\TAI\wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-13 11:40:12 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 D:\Studia\PK\mgr\TAI\wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-13 11:42:20 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 D:\Studia\PK\mgr\TAI\wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-13 11:56:16 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 D:\Studia\PK\mgr\TAI\wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-13 11:57:37 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 D:\Studia\PK\mgr\TAI\wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-13 11:58:13 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 D:\Studia\PK\mgr\TAI\wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-13 12:00:03 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 D:\Studia\PK\mgr\TAI\wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-13 12:00:52 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 D:\Studia\PK\mgr\TAI\wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-13 12:01:18 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 D:\Studia\PK\mgr\TAI\wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-13 12:01:45 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 D:\Studia\PK\mgr\TAI\wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-13 12:02:20 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 D:\Studia\PK\mgr\TAI\wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-13 12:02:58 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 D:\Studia\PK\mgr\TAI\wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-13 12:33:59 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 D:\Studia\PK\mgr\TAI\wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-13 12:44:55 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 D:\Studia\PK\mgr\TAI\wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-13 12:45:01 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 D:\Studia\PK\mgr\TAI\wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-13 12:45:19 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 D:\Studia\PK\mgr\TAI\wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-13 12:45:21 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 D:\Studia\PK\mgr\TAI\wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-13 12:45:47 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 D:\Studia\PK\mgr\TAI\wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-13 12:46:00 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 D:\Studia\PK\mgr\TAI\wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Studia\PK\mgr\TAI\wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Studia\PK\mgr\TAI\wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
