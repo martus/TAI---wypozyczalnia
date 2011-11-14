@@ -122,5 +122,11 @@ class Client extends AppModel {
 			'counterQuery' => ''
 		)
 	);
+	
+	function getHires($id) {
+		$sql = 'SELECT * FROM hires WHERE client_id='.$id;
+		print_r($sql);
+		return $this->query($sql);
+	}
 
 }

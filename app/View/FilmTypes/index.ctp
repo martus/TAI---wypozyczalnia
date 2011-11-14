@@ -1,11 +1,11 @@
 <div class="filmTypes index">
-	<h2><?php echo __('Film Types');?></h2>
+	<h2><?php echo __('Typy dostępnych filmów');?></h2>
 	<table cellpadding="0" cellspacing="0">
 	<tr>
-			<th><?php echo $this->Paginator->sort('id');?></th>
-			<th><?php echo $this->Paginator->sort('type');?></th>
-			<th><?php echo $this->Paginator->sort('cost_per_day');?></th>
-			<th class="actions"><?php echo __('Actions');?></th>
+			<th><?php echo $this->Paginator->sort('id','id');?></th>
+			<th><?php echo $this->Paginator->sort('type', 'typ filmu');?></th>
+			<th><?php echo $this->Paginator->sort('cost_per_day', 'koszt wypożyczneia/doba');?></th>
+			<th class="actions"><?php echo __('Akcje');?></th>
 	</tr>
 	<?php
 	$i = 0;

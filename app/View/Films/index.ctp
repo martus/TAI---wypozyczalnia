@@ -1,13 +1,13 @@
 <div class="films index">
-	<h2><?php echo __('Films');?></h2>
+	<h2><?php echo __('Filmy');?></h2>
 	<table cellpadding="0" cellspacing="0">
 	<tr>
-			<th><?php echo $this->Paginator->sort('id');?></th>
-			<th><?php echo $this->Paginator->sort('original_title');?></th>
-			<th><?php echo $this->Paginator->sort('polish_title');?></th>
-			<th><?php echo $this->Paginator->sort('production_year');?></th>
-			<th><?php echo $this->Paginator->sort('film_type_id');?></th>
-			<th class="actions"><?php echo __('Actions');?></th>
+			<th><?php echo $this->Paginator->sort('id', 'id');?></th>
+			<th><?php echo $this->Paginator->sort('original_title', 'tytuł w oryginale');?></th>
+			<th><?php echo $this->Paginator->sort('polish_title', 'tytuł polski');?></th>
+			<th><?php echo $this->Paginator->sort('production_year', 'rok produkcji');?></th>
+			<th><?php echo $this->Paginator->sort('film_type_id', 'typ filmu');?></th>
+			<th class="actions"><?php echo __('Akcje');?></th>
 	</tr>
 	<?php
 	$i = 0;
@@ -38,7 +38,7 @@
 	<div class="paging">
 	<?php
 		echo $this->Paginator->prev('< ' . __('previous'), array(), null, array('class' => 'prev disabled'));
-		echo $this->Paginator->numbers(array('separator' => ''));
+		echo $this->Paginator->numbers(array('separator' => ' '));
 		echo $this->Paginator->next(__('next') . ' >', array(), null, array('class' => 'next disabled'));
 	?>
 	</div>
@@ -46,7 +46,7 @@
 <div class="actions">
 	<h3><?php echo __('Actions'); ?></h3>
 	<ul>
-		<li><?php echo $this->Html->link(__('New Film'), array('action' => 'add')); ?></li>
+		<li><?php echo $this->Html->link(__('New Film'), array('controller' => 'films', 'action' => 'add')); ?></li>
 		<li><?php echo $this->Html->link(__('List Film Types'), array('controller' => 'film_types', 'action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New Film Type'), array('controller' => 'film_types', 'action' => 'add')); ?> </li>
 		<li><?php echo $this->Html->link(__('List Copies'), array('controller' => 'copies', 'action' => 'index')); ?> </li>
