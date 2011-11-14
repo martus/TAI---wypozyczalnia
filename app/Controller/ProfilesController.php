@@ -21,7 +21,7 @@ class ProfilesController extends AppController {
 			throw new NotFoundException(__('Invalid client'));
 		}
 		$this->set('client', $this->Client->read(null, $id));
-		$this->set('clien', $this->Client->getHires($id));
+		$this->set('hires', $this->Client->getHires($id));
 	}
 
 /**

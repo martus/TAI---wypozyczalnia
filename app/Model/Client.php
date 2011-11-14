@@ -124,9 +124,13 @@ class Client extends AppModel {
 	);
 	
 	function getHires($id) {
-		$sql = 'SELECT * FROM hires WHERE client_id='.$id;
-		print_r($sql);
-		return $this->query($sql);
+		$sql = 'SELECT hires.*, films.id, films.original_title, films.polish_title FROM hires 
+		join copies on copies.id=hires.copy_id 
+		join films on copies.film_id=films.id
+		WHERE client_id='.$id;
+
+		$hires=$this->query($sql);
+		return $hires;
 	}
 
 }
