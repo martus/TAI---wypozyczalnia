@@ -17,6 +17,7 @@
 	<nav class="user_menu">
 		<ul>
 			<li>Koszyk</li>
+			<li>Profil</li>
 			<li>Zaloguj</li>
 		</ul>
 	</nav>

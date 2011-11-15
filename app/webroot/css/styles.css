@@ -5,6 +5,22 @@ html, body {
 body {
 	width:900px;
 }
+
+h1 {
+	color: #fc0;
+	font-size: large;
+}
+
+#content{
+	min-height:450px;
+	padding-top: 100px;
+	padding-left: 30px;
+	margin-left:200px;
+	float:none;
+	background-color:#fff;
+	height:auto;
+}
+
 header > img {
 	float:left;
 }
