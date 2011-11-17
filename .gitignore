@@ -4,3 +4,4 @@
 tags
 
 /app/tmp/*
+app/config/database.php
