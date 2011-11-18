@@ -1,3 +1,4 @@
+<?php ?>
 <h2>Login</h2>
 <?php
 	echo $this->Session->flash('auth');

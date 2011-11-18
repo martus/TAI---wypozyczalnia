@@ -6,12 +6,16 @@ App::uses('AppController', 'Controller', 'AuthComponent');
  * @property User $User
  */
 class UsersController extends AppController {
-	var $name = 'Users';
-	var $components = array('Auth'); 
+	var $name = 'Users'; 
 	
 	
 function beforeFilter() {
     parent::beforeFilter();
+		
+		// If logged in, these pages require logout
+		if ($this->Auth->user() && in_array($this->params['action'], array('signup', 'login'))) {
+			$this->redirect('/');
+		}
     //$this->Auth->allow('add', 'index', 'login','logout');
     
 }
@@ -196,24 +200,13 @@ function beforeFilter() {
 		$this->redirect(array('action' => 'index'));
 	}
 	function login() {
-		/*if ($this->Auth->login()) {
-	        $this->redirect($this->Auth->redirect());
-	    } else {
-	        $this->Session->setFlash(__('Invalid username or password, try again'));
-	    }*/
-		/*if ($this->request->is('post')) {
-			//debug($this->data);
-			//$this->data['User']['password'] = $this->Auth->password($this->data['User']['password']);
+		if ($this->request->is('post')) {
 	        if ($this->Auth->login()) {
-	            $this->redirect($this->Auth->redirect());
+	            return $this->redirect($this->Auth->redirect());
 	        } else {
-	            $this->Session->setFlash('Your e-mail or password was incorrect.');
+	            $this->Session->setFlash(__('Username or password is incorrect'), 'default', array(), 'auth');
 	        }
-	    }*/
-		if($this->Session->read('Auth.User')){
-			$this->Sesion->setFlash('You are loggied in!');
-			$thin->redirect('/',null,false);
-		}
+	    }
 	}
 	
 	function logout() {

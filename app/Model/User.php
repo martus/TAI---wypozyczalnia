@@ -29,8 +29,8 @@ class User extends Model {
 		'Role'
 	);
 	public function beforeSave() {
-        if (isset($this->data[$this->alias]['password'])) {
-        	$this->data[$this->alias]['password'] = AuthComponent::password($this->data[$this->alias]['password']);
+        if (isset($this->data['User']['password'])) {
+        	$this->data['User']['password'] = AuthComponent::password($this->data['User']['password']);
     	}
     	return true;
     }
