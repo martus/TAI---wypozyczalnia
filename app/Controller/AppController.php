@@ -17,6 +17,19 @@ class AppController extends Controller {
     public $helpers = array('Html', 'Form', 'Session');
 
     function beforeFilter() {
+    	switch($this->Auth->user('role_id')){
+    		case 1:
+    			$this->layout = 'admin';
+    			break;
+    		case 2:
+    			$this->layout = 'manager';
+    			break;
+    		case 3:
+    			$this->layout = 'loggedin';
+    			break;
+    		default:
+    			$this->layout = 'default';
+    	}
     	//$this->Auth->allow('*');
         //Configure AuthComponent
        // $this->Auth->userModel = 'User';
