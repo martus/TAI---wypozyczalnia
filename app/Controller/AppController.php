@@ -7,16 +7,19 @@ class AppController extends Controller {
     			'Form' => array(
     				'userModel' => 'User',
     				'fields' => array('username' => 'e-mail'),
+    				'scope' => array('active' => 1)
     			)
 	        ),
 	        'loginRedirect' => array('controller' => 'films', 'action' => 'add'),
 	        'logoutRedirect' => array('controller' => 'users', 'action' => 'login'),
+	        'authError' => 'Błędny e-mail, hasło, albo konto nie zostało aktywowane.',
         ),
         'Session'
     );
     public $helpers = array('Html', 'Form', 'Session');
 
     function beforeFilter() {
+    	$this->Auth->allow('register');
     	switch($this->Auth->user('role_id')){
     		case 1:
     			$this->layout = 'admin';
@@ -28,20 +31,9 @@ class AppController extends Controller {
     			$this->layout = 'loggedin';
     			break;
     		default:
+    			//$this->Auth->user('role_id')=4;
     			$this->layout = 'default';
     	}
-    	//$this->Auth->allow('*');
-        //Configure AuthComponent
-       // $this->Auth->userModel = 'User';
-        /*$this->Auth->allow('display');
-        $this->Auth->loginAction = array('controller' => 'users', 'action' => 'login');
-        $this->Auth->logoutRedirect = array('controller' => 'users', 'action' => 'login');
-        $this->Auth->loginRedirect = array('controller' => 'users', 'action' => 'index');
-        $this->Auth->fields = array('username' => 'e-mail', 'password' => 'password');
-        $this->Auth->authorize = 'controller';*/
-		
-		//  Additional criteria for loging.
-		//$this->Auth->userScope = array('User.active' => 1); //user needs to be active.
     }
 	public function isAuthorized($user) {
 	    if (isset($user['role_id']) && $user['role_id'] === 1) {

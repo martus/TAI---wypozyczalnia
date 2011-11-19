@@ -83,3 +83,10 @@ footer {
 .paging > .next {
 	float:right;
 	}
+/*******rejestracja*******/
+#RegisterRegisterForm label {
+	display:inline-block;
+	text-align:right;
+	margin:5px 10px 0 0;
+	width:150px;
+}

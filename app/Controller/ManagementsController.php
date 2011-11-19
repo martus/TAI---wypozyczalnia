@@ -5,18 +5,17 @@ App::uses('AppController', 'Controller', 'AuthComponent');
  *
  * @property User $User
  */
-class UsersController extends AppController {
-	var $name = 'Users'; 
-	var $components = array('MathCaptcha'); 
+class ManagementsController extends AppController {
+	var $name = 'Managements'; 
 	
 	
 function beforeFilter() {
     parent::beforeFilter();
 		
 		// If logged in, these pages require logout
-		if ($this->Auth->user() && in_array($this->params['action'], array('signup', 'login'))) {
+		/*if ($this->Auth->user() && in_array($this->params['action'], array('signup', 'login'))) {
 			$this->redirect('/');
-		}
+		}*/
     //$this->Auth->allow('add', 'index', 'login','logout');
     
 }
@@ -27,9 +26,8 @@ function beforeFilter() {
  *
  * @return void
  */
-	public function index() {
-		$this->User->recursive = 0;
-		$this->set('users', $this->paginate());
+	public function admin() {
+		
 	}
 
 /**
@@ -205,10 +203,10 @@ function beforeFilter() {
 	        if ($this->Auth->login()) {
 		        switch($this->Auth->user('role_id')){
 		    		case 1:
-		    			return $this->redirect('/managements/admin');
+		    			return $this->redirect('/management/admin');
 		    			break;
 		    		case 2:
-		    			return $this->redirect('/managements/manager');
+		    			return $this->redirect('/management/manager');
 		    			break;
 		    		case 3:
 		    			return $this->redirect($this->Auth->redirect());
@@ -226,22 +224,5 @@ function beforeFilter() {
 		$this->redirect($this->Auth->logout());
 	    //Leave empty for now.
 	}
-	function register() {
-		if ($this->request->is('post')) { 
-            /*$this->Contact->set($this->data); 
-            if ($this->MathCaptcha->validates($this->data['Contact']['security_code'])) { 
-                if ($this->Contact->validates()) { 
-                    $this->Email->to = Configure::read('SiteSettings.email_form_address'); 
-                    $this->Email->subject = 'Contact from message from ' . $this->data['Contact']['name']; 
-                    $this->Email->from = $this->data['Contact']['email'];  
-
-                    $this->Email->send($this->data['Contact']['comments']); 
-                } 
-            } else { 
-                $this->Session->setFlash(__('Please enter the correct answer to the math question.', true)); 
-            } */
-        }  
-
-        $this->set('mathCaptcha', $this->MathCaptcha->generateEquation()); 
-	}
+	
 }
