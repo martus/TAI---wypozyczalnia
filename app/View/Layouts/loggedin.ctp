@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-<title>Wypożyczalnia filmów | <?php echo $title_for_layout?></title>
+<title>Panel administracyjny - Wypożyczalnia filmów | <?php echo $title_for_layout?></title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 <!-- Include external files and scripts here (See HTML helper for more info.) -->
 <?php echo $scripts_for_layout ?>
@@ -14,8 +14,7 @@
 	<nav class="user_menu">
 		<ul>
 			<li>Koszyk</li>
-			<li><?php echo $this->Html->link('Zaloguj',array('controller' => 'users', 'action' => 'login'), array()); ?></li>
-			<li><?php echo $this->Html->link('Rejestracja',array('controller' => 'users', 'action' => 'register'), array()); ?></li>
+			<li><?php echo $this->Html->link('Wyloguj',array('controller' => 'users', 'action' => 'logout'), array()); ?></li>
 		</ul>
 	</nav>
 	<form action="" method="get">
