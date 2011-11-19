@@ -1,11 +1,11 @@
 <div class="filmTypes index">
-	<h2><?php echo __('Typy dostępnych filmów');?></h2>
+	<h2><?php echo __('Film Types');?></h2>
 	<table cellpadding="0" cellspacing="0">
 	<tr>
-			<th><?php echo $this->Paginator->sort('id','id');?></th>
-			<th><?php echo $this->Paginator->sort('type', 'typ filmu');?></th>
-			<th><?php echo $this->Paginator->sort('cost_per_day', 'koszt wypożyczneia/doba');?></th>
-			<th class="actions"><?php echo __('Akcje');?></th>
+			<th><?php echo $this->Paginator->sort('id');?></th>
+			<th><?php echo $this->Paginator->sort('type');?></th>
+			<th><?php echo $this->Paginator->sort('cost_per_day');?></th>
+			<th class="actions"><?php echo __('Actions');?></th>
 	</tr>
 	<?php
 	$i = 0;
@@ -36,12 +36,4 @@
 		echo $this->Paginator->next(__('next') . ' >', array(), null, array('class' => 'next disabled'));
 	?>
 	</div>
-</div>
-<div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
-	<ul>
-		<li><?php echo $this->Html->link(__('New Film Type'), array('action' => 'add')); ?></li>
-		<li><?php echo $this->Html->link(__('List Films'), array('controller' => 'films', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Film'), array('controller' => 'films', 'action' => 'add')); ?> </li>
-	</ul>
 </div>

@@ -13,6 +13,7 @@ class FilmsController extends AppController {
  *
  * @return void
  */
+	var $paginate = array('limit'=>1);
 	public function index() {
 		$this->Film->recursive = 0;
 		$this->set('films', $this->paginate());

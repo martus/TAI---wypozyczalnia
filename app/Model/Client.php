@@ -122,15 +122,5 @@ class Client extends AppModel {
 			'counterQuery' => ''
 		)
 	);
-	
-	function getHires($id) {
-		$sql = 'SELECT hires.*, films.id, films.original_title, films.polish_title FROM hires 
-		join copies on copies.id=hires.copy_id 
-		join films on copies.film_id=films.id
-		WHERE client_id='.$id;
-
-		$hires=$this->query($sql);
-		return $hires;
-	}
 
 }

@@ -97,4 +97,7 @@ class ClientsController extends AppController {
 		$this->Session->setFlash(__('Client was not deleted'));
 		$this->redirect(array('action' => 'index'));
 	}
+	public function profile(){
+		$id = $this->Auth->user('id');
+	}
 }
