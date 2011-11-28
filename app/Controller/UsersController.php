@@ -12,7 +12,7 @@ class UsersController extends AppController {
 	
 function beforeFilter() {
     parent::beforeFilter();
-		
+    //$this->Auth->allow('initDB'); // We can remove this line after we're finished
 		// If logged in, these pages require logout
 		if ($this->Auth->user() && in_array($this->params['action'], array('signup', 'login'))) {
 			$this->redirect('/');
@@ -21,6 +21,21 @@ function beforeFilter() {
     
 }
 
+/* 
+function initDB() {
+	$group = $this->User->Role;
+
+	
+
+	//allow users
+	$group->id = 3;
+	$this->Acl->deny($group, 'controllers');
+	$this->Acl->allow($group, 'controllers/Searches/');
+
+	//we add an exit to avoid an ugly "missing views" error message
+	echo "all done";
+	exit;
+} */
 
 /**
  * index method
@@ -226,9 +241,10 @@ function beforeFilter() {
 		$this->redirect($this->Auth->logout());
 	    //Leave empty for now.
 	}
+	
 	function register() {
 		if ($this->request->is('post')) { 
-            /*$this->Contact->set($this->data); 
+             /*$this->Contact->set($this->data);
             if ($this->MathCaptcha->validates($this->data['Contact']['security_code'])) { 
                 if ($this->Contact->validates()) { 
                     $this->Email->to = Configure::read('SiteSettings.email_form_address'); 

@@ -18,10 +18,11 @@
 			<li><?php echo $this->Html->link('Rejestracja',array('controller' => 'users', 'action' => 'register'), array()); ?></li>
 		</ul>
 	</nav>
-	<form action="" method="get">
+<!-- 	<form action="" method="get">
 		<input type="text" value="wprowadź szukaną frazę"/>
 		<input type="submit" value="Szukaj" />		
-	</form>
+	</form> -->
+	<?php echo $this->element('searcher'); ?>
 	
 </header>
 <div id="main">

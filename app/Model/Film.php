@@ -10,6 +10,8 @@ App::uses('AppModel', 'Model');
  * @property Person $Person
  */
 class Film extends AppModel {
+	
+	var $name = 'Film';
 /**
  * Validation rules
  *
@@ -19,13 +21,23 @@ class Film extends AppModel {
 		'film_type_id' => array(
 			'numeric' => array(
 				'rule' => array('numeric'),
-				//'message' => 'Your custom message here',
+				'message' => 'Musi byc wartością numeryczną',
 				//'allowEmpty' => false,
 				//'required' => false,
 				//'last' => false, // Stop validation after this rule
 				//'on' => 'create', // Limit validation to 'create' or 'update' operations
 			),
 		),
+		'polish_title' => array(
+            'length' => array( 
+            	'rule' => array('maxLength', 10)),
+				'message' => 'Za długi tytuł'
+        ),
+        'original_title' => array(
+            'length' => array( 
+            	'rule' => array('maxLength', 10)),
+				'message' => 'Za długi tytuł'
+        ),
 	);
 
 	//The Associations below have been created with all possible keys, those that are not needed can be removed

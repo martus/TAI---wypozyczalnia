@@ -7,13 +7,14 @@ App::uses('AppController', 'Controller');
  */
 class FilmsController extends AppController {
 
+	var $paginate = array('limit'=>1);
 
+	
 /**
  * index method
  *
  * @return void
  */
-	var $paginate = array('limit'=>1);
 	public function index() {
 		$this->Film->recursive = 0;
 		$this->set('films', $this->paginate());
@@ -104,4 +105,6 @@ class FilmsController extends AppController {
 		$this->Session->setFlash(__('Film was not deleted'));
 		$this->redirect(array('action' => 'index'));
 	}
+	
+
 }

@@ -17,10 +17,7 @@
 			<li><?php echo $this->Html->link('Wyloguj',array('controller' => 'users', 'action' => 'logout'), array()); ?></li>
 		</ul>
 	</nav>
-	<form action="" method="get">
-		<input type="text" value="wprowadź szukaną frazę"/>
-		<input type="submit" value="Szukaj" />		
-	</form>
+	<?php echo $this->element('searcher'); ?>
 	
 </header>
 <div id="main">
