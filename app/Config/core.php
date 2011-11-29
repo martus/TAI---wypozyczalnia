@@ -174,6 +174,7 @@ Configure::write('Routing.prefixes', array('admin'));
  */
 	Configure::write('Session', array(
 		'defaults' => 'php'
+	
 	));
 
 /**

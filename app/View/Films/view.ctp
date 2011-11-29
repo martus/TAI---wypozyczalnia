@@ -1,5 +1,7 @@
 <div class="films view">
-<h2><?php  echo __('Film');?></h2>
+<h2><?php  echo __('Film');?></h2> 
+<h3><?php echo $this->Html->link('Dodaj do koszyka!',
+	 array('controller' => 'carts', 'action' => 'add_to_cart', $film['Film']['id'])); ?></h3>
 	<dl>
 		<dt><?php echo __('Id'); ?></dt>
 		<dd>
@@ -28,6 +30,10 @@
 		</dd>
 	</dl>
 </div>
+		<?php $filename = "/git/TAI---wypozyczalnia/app/webroot/img/film".$film['Film']['id'].".jpg";    
+		$imgSrc = !file_exists($filename) ? $filename : "/git/TAI---wypozyczalnia/app/webroot/img/default-video.jpg"; 
+		echo '<img src="'.$imgSrc.'" alt="default" />';?>
+
 <div class="actions">
 	<h3><?php echo __('Actions'); ?></h3>
 	<ul>
