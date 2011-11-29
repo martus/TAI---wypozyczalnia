@@ -260,4 +260,5 @@ function initDB() {
 
         $this->set('mathCaptcha', $this->MathCaptcha->generateEquation()); 
 	}
+	
 }

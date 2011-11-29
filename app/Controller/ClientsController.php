@@ -7,7 +7,7 @@ App::uses('AppController', 'Controller');
  */
 class ClientsController extends AppController {
 
-
+	var $uses = array('Hire');
 /**
  * index method
  *
@@ -100,5 +100,9 @@ class ClientsController extends AppController {
 	
 	public function profile(){
 		$id = $this->Auth->user('id');
+
+		//$this->redirect(array('action' => 'view'), $id);
 	}
+	
+
 }

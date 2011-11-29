@@ -62,5 +62,13 @@ class Copy extends AppModel {
 			'counterQuery' => ''
 		)
 	);
+	
+	public function is_accessble_copy($film_id) {
+		$sql = 'SELECT id FROM copies
+				WHERE film_id = '.$film_id.' and (id) NOT IN
+				(SELECT copy_id FROM hires where end_date is null) limit 1';
+		$copy_id=$this->query($sql);
+		return  $copy_id[0]['copies']['id'];
+	}
 
 }

@@ -20,6 +20,7 @@ $suma = 0;
 		<td><?php echo $c['cost_per_day'].' zł'; ?>&nbsp;</td>
 		<td class="actions">
 			<?php // echo $this->Html->link(__('Edit'), array('action' => 'edit', $c['id'])); ?>
+			<?php echo $this->Html->link(__('Zamów'), array('action' => 'add_hire', $c['id'])); ?>
 			<?php echo $this->Form->postLink(__('Zrezygnuj'), array('action' => 'delete', $c['id']), null, __('Are you sure you want to delete # %s?', $c['polish_title'])); ?>
 		</td>
 	</tr>

@@ -58,4 +58,10 @@ class User extends Model {
             return array('Role' => array('id' => $roleId));
         }*/
     }
+    
+	function get_client_id($user_id) {
+		$sql = 'select client_id from users where id='.$user_id.'';
+		$cli=$this->query($sql);
+		return $cli[0]['users']['client_id'];
+	}
 }
