@@ -8,26 +8,109 @@ App::uses('AppModel', 'Model', 'AuthComponent', 'Controller/Component');
 class User extends Model {
 	public $name = 'User';
     public $actsAs = array('Acl' => array('type' => 'requester'));
-	function bindNode($user) {
-	    return array('model' => 'Role', 'foreign_key' => $user['User']['role_id']);
-	}
-/**
+    /**
  * Display field
  *
  * @var string
  */
 	public $displayField = 'e-mail';
-
-	//The Associations below have been created with all possible keys, those that are not needed can be removed
-
-/**
+	
+    public $validate = array(
+		'e-mail' => array(
+			'notempty' => array(
+				'rule' => array('notempty'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+		),
+		'password' => array(
+			'notempty' => array(
+				'rule' => array('notempty'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+		),
+		'role_id' => array(
+			'numeric' => array(
+				'rule' => array('numeric'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+		),
+		'active' => array(
+			'numeric' => array(
+				'rule' => array('numeric'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+		),
+	);
+    
+	/**
  * belongsTo associations
  *
  * @var array
  */
 	public $belongsTo = array(
-		'Role'
+		'Role' => array(
+			'className' => 'Role',
+			'foreignKey' => 'role_id',
+			'conditions' => '',
+			'fields' => '',
+			'order' => ''
+		)
 	);
+
+/**
+ * hasMany associations
+ *
+ * @var array
+ */
+	public $hasMany = array(
+		'Client' => array(
+			'className' => 'Client',
+			'foreignKey' => 'user_id',
+			'dependent' => false,
+			'conditions' => '',
+			'fields' => '',
+			'order' => '',
+			'limit' => '',
+			'offset' => '',
+			'exclusive' => '',
+			'finderQuery' => '',
+			'counterQuery' => ''
+		),
+		'Hire' => array(
+			'className' => 'Hire',
+			'foreignKey' => 'user_id',
+			'dependent' => false,
+			'conditions' => '',
+			'fields' => '',
+			'order' => '',
+			'limit' => '',
+			'offset' => '',
+			'exclusive' => '',
+			'finderQuery' => '',
+			'counterQuery' => ''
+		)
+	);
+	
+	function bindNode($user) {
+	    return array('model' => 'Role', 'foreign_key' => $user['User']['role_id']);
+	}
+
 	public function beforeSave() {
         if (isset($this->data['User']['password'])) {
         	$this->data['User']['password'] = AuthComponent::password($this->data['User']['password']);

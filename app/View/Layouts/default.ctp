@@ -13,15 +13,11 @@
 	<?php echo $this->Html->image('/img/wyp_logo.png', array('alt'=>'Kinomaniak', 'url'=>array('controller' => 'films', 'action' => 'index'))); ?>
 	<nav class="user_menu">
 		<ul>
-			<li>Koszyk</li>
+			<li><?php echo $this->Html->link('Koszyk',array('controller' => 'carts', 'action' => 'index'), array()); ?></li>
 			<li><?php echo $this->Html->link('Zaloguj',array('controller' => 'users', 'action' => 'login'), array()); ?></li>
 			<li><?php echo $this->Html->link('Rejestracja',array('controller' => 'users', 'action' => 'register'), array()); ?></li>
 		</ul>
 	</nav>
-<!-- 	<form action="" method="get">
-		<input type="text" value="wprowadź szukaną frazę"/>
-		<input type="submit" value="Szukaj" />		
-	</form> -->
 	<?php echo $this->element('searcher'); ?>
 	
 </header>

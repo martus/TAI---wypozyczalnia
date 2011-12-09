@@ -7,23 +7,23 @@ App::uses('AppController', 'Controller');
  */
 class ClientsController extends AppController {
 
-	var $uses = array('Hire');
-/**
- * index method
- *
- * @return void
- */
+
+	/**
+	 * index method
+	 *
+	 * @return void
+	 */
 	public function index() {
 		$this->Client->recursive = 0;
 		$this->set('clients', $this->paginate());
 	}
 
-/**
- * view method
- *
- * @param string $id
- * @return void
- */
+	/**
+	 * view method
+	 *
+	 * @param string $id
+	 * @return void
+	 */
 	public function view($id = null) {
 		$this->Client->id = $id;
 		if (!$this->Client->exists()) {
@@ -32,11 +32,11 @@ class ClientsController extends AppController {
 		$this->set('client', $this->Client->read(null, $id));
 	}
 
-/**
- * add method
- *
- * @return void
- */
+	/**
+	 * add method
+	 *
+	 * @return void
+	 */
 	public function add() {
 		if ($this->request->is('post')) {
 			$this->Client->create();
@@ -47,16 +47,14 @@ class ClientsController extends AppController {
 				$this->Session->setFlash(__('The client could not be saved. Please, try again.'));
 			}
 		}
-		$countries = $this->Client->Country->find('list');
-		$this->set(compact('countries'));
 	}
 
-/**
- * edit method
- *
- * @param string $id
- * @return void
- */
+	/**
+	 * edit method
+	 *
+	 * @param string $id
+	 * @return void
+	 */
 	public function edit($id = null) {
 		$this->Client->id = $id;
 		if (!$this->Client->exists()) {
@@ -73,15 +71,16 @@ class ClientsController extends AppController {
 			$this->request->data = $this->Client->read(null, $id);
 		}
 		$countries = $this->Client->Country->find('list');
-		$this->set(compact('countries'));
+		$users = $this->Client->User->find('list');
+		$this->set(compact('countries','users'));
 	}
 
-/**
- * delete method
- *
- * @param string $id
- * @return void
- */
+	/**
+	 * delete method
+	 *
+	 * @param string $id
+	 * @return void
+	 */
 	public function delete($id = null) {
 		if (!$this->request->is('post')) {
 			throw new MethodNotAllowedException();
@@ -97,12 +96,38 @@ class ClientsController extends AppController {
 		$this->Session->setFlash(__('Client was not deleted'));
 		$this->redirect(array('action' => 'index'));
 	}
-	
-	public function profile(){
-		$id = $this->Auth->user('id');
 
-		//$this->redirect(array('action' => 'view'), $id);
+	public function profile(){
+		$this->Client->recursive = 2;
+		$uid = $this->Auth->user('id');
+		$this->Client->user_id = $uid;
+		//$condition = 'user_id = '.$uid.'';
+		$a = array();
+		$a = $this->Client->find('all'/*, array('conditions' => $condition)*/);
+		$this->set('hires', $a[0]);
+		$id = $a[0]['Client']['id'];
+		$this->edit_profile($id);
+		
 	}
-	
+
+	public function edit_profile($id) {
+		$this->Client->id = $id;
+		if (!$this->Client->exists()) {
+			throw new NotFoundException(__('Invalid client'));
+		}
+		if ($this->request->is('post') || $this->request->is('put')) {
+			if ($this->Client->save($this->request->data)) {
+				$this->Session->setFlash(__('Zmiany zostały zapisane!'));
+				$this->redirect(array('action' => 'profile'));
+			} else {
+				$this->Session->setFlash(__('Nie można zapisać zmian. Spróbuj ponownie.'));
+			}
+		} else {
+			$this->request->data = $this->Client->read(null, $id);
+		}
+		$countries = $this->Client->Country->find('list');
+		$users = $this->Client->User->find('list');
+		$this->set(compact('countries','users'));
+	}
 
 }

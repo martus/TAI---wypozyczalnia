@@ -2,17 +2,16 @@
 echo '<h1>Zaawansowane szukanie</h1>';
 
 ?>
-<form action="/git/TAI---wypozyczalnia/searches/advanced_search"
-	id="SearchForm" method="post" accept-charset="utf-8">
 
-	Tytuł filmu <input name="tytul" value="" type="text" id="tyt" /> <br />
-	Gatunek <input name="gatunek" value="" type="text" id="gat" /> <br />
-	Reżyser <input name="rezyser" value="" type="text" id="rez" /> <br />
-	Rok produkcji <input name="rok_wydania" value="" type="text" id="rok" />
-	<br /> <input type="submit" value="Szukaj" />
-</form>
+<?php echo $this->Form->create(''); ?>
+	<?php echo $this->Form->input('Film.polish_title', array('label' => 'Tytuł filmu', 'value' => '', 'type' => 'text')); ?>
+	<?php echo $this->Form->input('Genre.name', array('label' => 'Gatunek filmowy', 'value' => '', 'type' => 'text')); ?>
+	<?php echo $this->Form->input('Person.name', array('label' => 'Reżyser', 'value' => '', 'type' => 'text')); ?>
+	<?php echo $this->Form->input('Film.production_year', array('label' => 'Rok produkcji', 'value' => '', 'type' => 'text')); ?>	
+	<?php echo $this->Form->end('szukaj');?>
 
-<?php if(!empty($films)) {?>
+
+<?php if(!empty($films)) { ?>
 <?php echo '<h1>Wyniki wyszukiwania</h1>'; ?>
 <table>
 	<tr>
@@ -39,6 +38,7 @@ echo '<h1>Zaawansowane szukanie</h1>';
 	<?php endforeach; ?>
 </table>
 
-	<?php } else {
-		//echo 'brak wyników';
+	<?php } elseif(!empty($ex)) {
+		echo '<h1>Wyniki wyszukiwania</h1>'; 
+		echo 'brak wyników';
 	}?>

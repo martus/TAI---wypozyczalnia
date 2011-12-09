@@ -15,8 +15,29 @@ class Person extends AppModel {
  */
 	var $name = 'Person';
 	public $displayField = 'name';
-
-	//The Associations below have been created with all possible keys, those that are not needed can be removed
+	
+	public $validate = array(
+		'name' => array(
+/*			'notempty' => array(
+				'rule' => array('notempty'),
+				'message' => 'Not empty',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),*/
+			'length' => array( 
+            	'rule' => array('maxLength', 255),
+				'message' => 'Za długa nazwa.'
+        	),
+        ),
+        'surname' => array(
+        'length' => array( 
+            	'rule' => array('maxLength', 255),
+				'message' => 'Za długa nazwa!'
+        	),
+        ),
+	);
 
 /**
  * belongsTo associations

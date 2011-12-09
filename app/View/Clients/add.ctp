@@ -10,6 +10,7 @@
 		echo $this->Form->input('street');
 		echo $this->Form->input('post_code');
 		echo $this->Form->input('country_id');
+		echo $this->Form->input('user_id');
 	?>
 	</fieldset>
 <?php echo $this->Form->end(__('Submit'));?>
@@ -19,9 +20,5 @@
 	<ul>
 
 		<li><?php echo $this->Html->link(__('List Clients'), array('action' => 'index'));?></li>
-		<li><?php echo $this->Html->link(__('List Countries'), array('controller' => 'countries', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Country'), array('controller' => 'countries', 'action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List Hires'), array('controller' => 'hires', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Hire'), array('controller' => 'hires', 'action' => 'add')); ?> </li>
 	</ul>
 </div>

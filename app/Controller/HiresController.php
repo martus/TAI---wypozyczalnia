@@ -47,9 +47,9 @@ class HiresController extends AppController {
 				$this->Session->setFlash(__('The hire could not be saved. Please, try again.'));
 			}
 		}
-		$clients = $this->Hire->Client->find('list');
-		$copies = $this->Hire->Copy->find('list');
-		$this->set(compact('clients', 'copies'));
+		$users = $this->Hire->User->find('list');
+		$films = $this->Hire->Film->find('list');
+		$this->set(compact('users', 'films'));
 	}
 
 /**
@@ -73,9 +73,9 @@ class HiresController extends AppController {
 		} else {
 			$this->request->data = $this->Hire->read(null, $id);
 		}
-		$clients = $this->Hire->Client->find('list');
-		$copies = $this->Hire->Copy->find('list');
-		$this->set(compact('clients', 'copies'));
+		$users = $this->Hire->User->find('list');
+		$films = $this->Hire->Film->find('list');
+		$this->set(compact('users', 'films'));
 	}
 
 /**

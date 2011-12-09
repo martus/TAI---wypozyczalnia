@@ -3260,3 +3260,418 @@
 #10 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(CartsController), Object(CakeRequest), Object(CakeResponse))
 #11 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #12 {main}
+2011-12-01 23:36:49 Error: [NotFoundException] Invalid user
+#0 [internal function]: UsersController->view('favicon.ico')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-01 23:36:49 Error: [NotFoundException] Invalid user
+#0 [internal function]: UsersController->view('favicon.ico')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-01 23:36:50 Error: [NotFoundException] Invalid user
+#0 [internal function]: UsersController->view('favicon.ico')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-02 00:03:30 Error: [MissingActionException] Action ProfilesController::index() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-02 01:40:31 Error: [MissingActionException] Action ClientsController::favicon.ico() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-02 01:40:32 Error: [MissingActionException] Action ClientsController::favicon.ico() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-02 10:01:43 Error: [MissingActionException] Action ClientsController::favicon.ico() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-02 10:01:43 Error: [MissingActionException] Action ClientsController::favicon.ico() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-02 11:11:38 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'getHires' at line 1
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('getHires', Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(645): DboSource->execute('getHires', Array, Array)
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(587): DboSource->fetchAll('getHires', Array, Array)
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Model.php(720): DboSource->query('getHires', Array, Object(Client))
+#5 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\Controller\ProfilesController.php(24): Model->__call('getHires', Array)
+#6 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\Controller\ProfilesController.php(24): Client->getHires('2')
+#7 [internal function]: ProfilesController->view('2')
+#8 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#10 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2011-12-02 11:11:39 Error: [NotFoundException] Invalid client
+#0 [internal function]: ProfilesController->view('favicon.ico')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-02 11:11:39 Error: [NotFoundException] Invalid client
+#0 [internal function]: ProfilesController->view('favicon.ico')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-02 11:11:39 Error: [NotFoundException] Invalid client
+#0 [internal function]: ProfilesController->view('favicon.ico')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-02 11:15:21 Error: [NotFoundException] Invalid client
+#0 [internal function]: ProfilesController->view('2')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-02 13:24:55 Error: [NotFoundException] Invalid client
+#0 [internal function]: ProfilesController->view('2')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-02 13:25:20 Error: [NotFoundException] Invalid client
+#0 [internal function]: ProfilesController->view('2')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-02 13:25:44 Error: [NotFoundException] Invalid client
+#0 [internal function]: ProfilesController->view('2')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-02 13:26:43 Error: [NotFoundException] Invalid client
+#0 [internal function]: ClientsController->profile()
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-02 13:30:22 Error: [NotFoundException] Invalid client
+#0 [internal function]: ClientsController->profile()
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-02 13:32:03 Error: [NotFoundException] Invalid client
+#0 [internal function]: ClientsController->profile()
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-02 13:33:02 Error: [NotFoundException] Invalid client
+#0 [internal function]: ClientsController->profile()
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-02 13:35:19 Error: [NotFoundException] Invalid client
+#0 [internal function]: ClientsController->profile()
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-02 13:37:38 Error: [NotFoundException] Invalid client
+#0 [internal function]: ClientsController->profile()
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-02 13:39:25 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'getHires' at line 1
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('getHires', Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(645): DboSource->execute('getHires', Array, Array)
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(587): DboSource->fetchAll('getHires', Array, Array)
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Model.php(720): DboSource->query('getHires', Array, Object(Client))
+#5 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\Controller\ClientsController.php(103): Model->__call('getHires', Array)
+#6 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\Controller\ClientsController.php(103): Client->getHires('2')
+#7 [internal function]: ClientsController->profile()
+#8 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#9 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#10 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2011-12-02 13:44:55 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'getHires' at line 1
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('getHires', Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(645): DboSource->execute('getHires', Array, Array)
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(587): DboSource->fetchAll('getHires', Array, Array)
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Model.php(720): DboSource->query('getHires', Array, Object(Client))
+#5 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\Controller\ClientsController.php(102): Model->__call('getHires', Array)
+#6 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\Controller\ClientsController.php(102): Client->getHires('2')
+#7 [internal function]: ClientsController->profile()
+#8 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#9 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#10 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2011-12-02 14:23:25 Error: [NotFoundException] Invalid client
+#0 [internal function]: ClientsController->edit('favicon.ico')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-02 14:23:26 Error: [NotFoundException] Invalid client
+#0 [internal function]: ClientsController->edit('favicon.ico')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-02 14:23:26 Error: [NotFoundException] Invalid client
+#0 [internal function]: ClientsController->edit('favicon.ico')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-02 15:15:59 Error: [MissingViewException] View file "D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\View\Clients\edit_profile.ctp" is missing.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\View\View.php(363): View->_getViewFileName(NULL)
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(899): View->render(NULL, NULL)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(114): Controller->render()
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-02 15:16:00 Error: [NotFoundException] Invalid client
+#0 [internal function]: ClientsController->edit_profile('favicon.ico')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-02 15:16:00 Error: [NotFoundException] Invalid client
+#0 [internal function]: ClientsController->edit_profile('favicon.ico')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-02 15:16:01 Error: [NotFoundException] Invalid client
+#0 [internal function]: ClientsController->edit_profile('favicon.ico')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-02 15:16:35 Error: [MissingViewException] View file "D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\View\Clients\edit_profile.ctp" is missing.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\View\View.php(363): View->_getViewFileName(NULL)
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(899): View->render(NULL, NULL)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(114): Controller->render()
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-02 15:17:01 Error: [MissingViewException] View file "D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\View\Clients\edit_profile.ctp" is missing.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\View\View.php(363): View->_getViewFileName(NULL)
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(899): View->render(NULL, NULL)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(114): Controller->render()
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-02 15:17:05 Error: [MissingViewException] View file "D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\View\Clients\edit_profile.ctp" is missing.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\View\View.php(363): View->_getViewFileName(NULL)
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(899): View->render(NULL, NULL)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(114): Controller->render()
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-03 00:59:59 Error: [NotFoundException] Invalid client
+#0 [internal function]: ClientsController->profile()
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-03 02:07:02 Error: [NotFoundException] Invalid client
+#0 [internal function]: ClientsController->profile()
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-03 12:03:24 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'wwww' in 'where clause'
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `Film`.*...', Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(645): DboSource->execute('SELECT `Film`.*...', Array, Array)
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(1040): DboSource->fetchAll('SELECT `Film`.*...', false)
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Model.php(2458): DboSource->read(Object(Film), Array)
+#5 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\Controller\SearchesController.php(126): Model->find('all', Array)
+#6 [internal function]: SearchesController->advanced_search()
+#7 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(SearchesController), Array)
+#8 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#9 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(SearchesController), Object(CakeRequest), Object(CakeResponse))
+#10 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2011-12-03 12:22:33 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ww' in 'where clause'
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `Film`.*...', Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(645): DboSource->execute('SELECT `Film`.*...', Array, Array)
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(1040): DboSource->fetchAll('SELECT `Film`.*...', false)
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Model.php(2458): DboSource->read(Object(Film), Array)
+#5 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\Controller\SearchesController.php(126): Model->find('all', Array)
+#6 [internal function]: SearchesController->advanced_search()
+#7 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(SearchesController), Array)
+#8 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#9 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(SearchesController), Object(CakeRequest), Object(CakeResponse))
+#10 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2011-12-03 12:24:44 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'www' in 'where clause'
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `Film`.*...', Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(645): DboSource->execute('SELECT `Film`.*...', Array, Array)
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(1040): DboSource->fetchAll('SELECT `Film`.*...', false)
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Model.php(2458): DboSource->read(Object(Film), Array)
+#5 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\Controller\SearchesController.php(126): Model->find('all', Array)
+#6 [internal function]: SearchesController->advanced_search()
+#7 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(SearchesController), Array)
+#8 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#9 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(SearchesController), Object(CakeRequest), Object(CakeResponse))
+#10 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2011-12-03 12:25:28 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'www' in 'where clause'
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `Film`.*...', Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(645): DboSource->execute('SELECT `Film`.*...', Array, Array)
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(1040): DboSource->fetchAll('SELECT `Film`.*...', false)
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Model.php(2458): DboSource->read(Object(Film), Array)
+#5 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\Controller\SearchesController.php(126): Model->find('all', Array)
+#6 [internal function]: SearchesController->advanced_search()
+#7 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(SearchesController), Array)
+#8 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#9 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(SearchesController), Object(CakeRequest), Object(CakeResponse))
+#10 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2011-12-03 12:25:52 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'www' in 'where clause'
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `Film`.*...', Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(645): DboSource->execute('SELECT `Film`.*...', Array, Array)
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(1040): DboSource->fetchAll('SELECT `Film`.*...', false)
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Model.php(2458): DboSource->read(Object(Film), Array)
+#5 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\Controller\SearchesController.php(126): Model->find('all', Array)
+#6 [internal function]: SearchesController->advanced_search()
+#7 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(SearchesController), Array)
+#8 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#9 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(SearchesController), Object(CakeRequest), Object(CakeResponse))
+#10 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2011-12-03 12:27:26 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'www' in 'where clause'
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `Film`.*...', Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(645): DboSource->execute('SELECT `Film`.*...', Array, Array)
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(1040): DboSource->fetchAll('SELECT `Film`.*...', false)
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Model.php(2458): DboSource->read(Object(Film), Array)
+#5 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\Controller\SearchesController.php(126): Model->find('all', Array)
+#6 [internal function]: SearchesController->advanced_search()
+#7 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(SearchesController), Array)
+#8 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#9 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(SearchesController), Object(CakeRequest), Object(CakeResponse))
+#10 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2011-12-03 12:27:34 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'www' in 'where clause'
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `Film`.*...', Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(645): DboSource->execute('SELECT `Film`.*...', Array, Array)
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(1040): DboSource->fetchAll('SELECT `Film`.*...', false)
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Model.php(2458): DboSource->read(Object(Film), Array)
+#5 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\Controller\SearchesController.php(126): Model->find('all', Array)
+#6 [internal function]: SearchesController->advanced_search()
+#7 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(SearchesController), Array)
+#8 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#9 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(SearchesController), Object(CakeRequest), Object(CakeResponse))
+#10 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2011-12-05 01:07:12 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-05 01:07:50 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'www' in 'where clause'
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `Film`.*...', Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(645): DboSource->execute('SELECT `Film`.*...', Array, Array)
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(1040): DboSource->fetchAll('SELECT `Film`.*...', false)
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Model.php(2458): DboSource->read(Object(Film), Array)
+#5 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\Controller\SearchesController.php(131): Model->find('all', Array)
+#6 [internal function]: SearchesController->advanced_search()
+#7 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(SearchesController), Array)
+#8 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#9 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(SearchesController), Object(CakeRequest), Object(CakeResponse))
+#10 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2011-12-07 21:24:39 Error: [MissingActionException] Action UsersController::favicon.ico() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-07 21:24:39 Error: [MissingActionException] Action UsersController::favicon.ico() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-07 21:24:40 Error: [MissingActionException] Action UsersController::favicon.ico() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-09 15:51:49 Error: [MissingActionException] Action ManagementsController::favicon.ico() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(ManagementsController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-09 15:51:49 Error: [MissingActionException] Action ManagementsController::favicon.ico() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(ManagementsController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-09 15:51:50 Error: [MissingActionException] Action ManagementsController::favicon.ico() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(ManagementsController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-09 16:07:07 Error: [MissingActionException] Action SearchesController::favicon.ico() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(SearchesController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-09 16:07:07 Error: [MissingActionException] Action SearchesController::favicon.ico() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(SearchesController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-09 16:07:07 Error: [MissingActionException] Action SearchesController::favicon.ico() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(SearchesController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

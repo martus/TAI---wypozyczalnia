@@ -1,31 +1,29 @@
 <div class="hires index">
-	<h2><?php echo __('Hires');?></h2>
+	<h2><?php echo __('Hires'); ?></h2>
 	<table cellpadding="0" cellspacing="0">
 	<tr>
 			<th><?php echo $this->Paginator->sort('id');?></th>
-			<th><?php echo $this->Paginator->sort('start_date');?></th>
-			<th><?php echo $this->Paginator->sort('end_date');?></th>
-			<th><?php echo $this->Paginator->sort('client_id');?></th>
-			<th><?php echo $this->Paginator->sort('copy_id');?></th>
+			<th><?php echo $this->Paginator->sort('expiry_date');?></th>
+			<th><?php echo $this->Paginator->sort('user_id');?></th>
+			<th><?php echo $this->Paginator->sort('film_id');?></th>
 			<th class="actions"><?php echo __('Actions');?></th>
 	</tr>
-	<?php
+	<?php //debug($hires);
 	$i = 0;
 	foreach ($hires as $hire): ?>
 	<tr>
 		<td><?php echo h($hire['Hire']['id']); ?>&nbsp;</td>
-		<td><?php echo h($hire['Hire']['start_date']); ?>&nbsp;</td>
-		<td><?php echo h($hire['Hire']['end_date']); ?>&nbsp;</td>
+		<td><?php echo h($hire['Hire']['expiry_date']); ?>&nbsp;</td>
 		<td>
-			<?php echo $this->Html->link($hire['Client']['name'], array('controller' => 'clients', 'action' => 'view', $hire['Client']['id'])); ?>
+			<?php echo $this->Html->link($hire['User']['id'], array('controller' => 'users', 'action' => 'view', $hire['User']['id'])); ?>&nbsp;
 		</td>
 		<td>
-			<?php echo $this->Html->link($hire['Copy']['id'], array('controller' => 'copies', 'action' => 'view', $hire['Copy']['id'])); ?>
+			<?php echo $this->Html->link($hire['Film']['id'], array('controller' => 'films', 'action' => 'view', $hire['Film']['id'])); ?>
 		</td>
 		<td class="actions">
-			<?php echo $this->Html->link(__('View'), array('action' => 'view', $hire['Hire']['id'])); ?>
-			<?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $hire['Hire']['id'])); ?>
-			<?php echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $hire['Hire']['id']), null, __('Are you sure you want to delete # %s?', $hire['Hire']['id'])); ?>
+			<?php //echo $this->Html->link(__('View'), array('action' => 'view', $hire['Hire']['id'])); ?>
+			<?php //echo $this->Html->link(__('Edit'), array('action' => 'edit', $hire['Hire']['id'])); ?>
+			<?php //echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $hire['Hire']['id']), null, __('Are you sure you want to delete # %s?', $hire['Hire']['id'])); ?>
 		</td>
 	</tr>
 <?php endforeach; ?>

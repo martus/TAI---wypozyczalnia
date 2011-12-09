@@ -11,6 +11,7 @@
 		echo $this->Form->input('street');
 		echo $this->Form->input('post_code');
 		echo $this->Form->input('country_id');
+		echo $this->Form->input('user_id');
 	?>
 	</fieldset>
 <?php echo $this->Form->end(__('Submit'));?>

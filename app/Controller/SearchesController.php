@@ -44,6 +44,7 @@ class SearchesController extends AppController {
 
 	public function advanced_search() {
 		$data = array();
+		$ex = '';
 		$join[1] = array(
 		'table' => 'Films_People',
 		'alias' => 'fp',
@@ -77,14 +78,17 @@ class SearchesController extends AppController {
 		));
 
 		if ($this->request->is('post')) {
+				$ex = 'brak wyników';
 			    $this->Film->set($this->data);
-			
-			if($this->Film->validates()){				
-				$gatunek = $this->data['gatunek'];
-				$tytul = $this->data['tytul'];
-				$rezyser = $this->data['rezyser'];
-				$rok = $this->data['rok_wydania'];
+			    $this->Genre->set($this->data);
+			    $this->Person->set($this->data);
+			if($this->Film->validates() && $this->Genre->validates() && $this->Person->validates()){
+				$gatunek = $this->data['Genre']['name'];
+				$tytul = $this->data['Film']['polish_title'];
+				$rezyser = $this->data['Person']['name'];
+				$rok = $this->data['Film']['production_year'];
 				$jointables = array();
+				$or_conditions = "";
 				if(!empty($tytul)) {
 					$or_conditions = "Film.original_title LIKE '%$tytul%' OR Film.polish_title LIKE '%$tytul%'";
 				}
@@ -123,11 +127,10 @@ class SearchesController extends AppController {
 					$data = $this->Film->find('all',
 					array('joins' => $jointables,
 					'limit'=>20,
-					'conditions'=>$final_conditions,'fields'=>array('Film.*')));
+					'conditions'=>$final_conditions,'fields'=>array('DISTINCT Film.*')));
 				}
-			}else {
-				//nie waliduje sie
 			}
+			$this->set('ex',$ex);
 			$this->set('films',$data);
 		}
 	}

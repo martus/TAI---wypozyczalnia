@@ -13,7 +13,7 @@ class Hire extends AppModel {
  * @var array
  */
 	public $validate = array(
-		'start_date' => array(
+		'expiry_date' => array(
 			'date' => array(
 				'rule' => array('date'),
 				//'message' => 'Your custom message here',
@@ -23,7 +23,7 @@ class Hire extends AppModel {
 				//'on' => 'create', // Limit validation to 'create' or 'update' operations
 			),
 		),
-		'client_id' => array(
+		'user_id' => array(
 			'numeric' => array(
 				'rule' => array('numeric'),
 				//'message' => 'Your custom message here',
@@ -33,7 +33,7 @@ class Hire extends AppModel {
 				//'on' => 'create', // Limit validation to 'create' or 'update' operations
 			),
 		),
-		'copy_id' => array(
+		'film_id' => array(
 			'numeric' => array(
 				'rule' => array('numeric'),
 				//'message' => 'Your custom message here',
@@ -53,16 +53,16 @@ class Hire extends AppModel {
  * @var array
  */
 	public $belongsTo = array(
-		'Client' => array(
-			'className' => 'Client',
-			'foreignKey' => 'client_id',
+		'User' => array(
+			'className' => 'User',
+			'foreignKey' => 'user_id',
 			'conditions' => '',
 			'fields' => '',
 			'order' => ''
 		),
-		'Copy' => array(
-			'className' => 'Copy',
-			'foreignKey' => 'copy_id',
+		'Film' => array(
+			'className' => 'Film',
+			'foreignKey' => 'film_id',
 			'conditions' => '',
 			'fields' => '',
 			'order' => ''

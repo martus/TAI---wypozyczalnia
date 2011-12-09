@@ -21,7 +21,7 @@ class Film extends AppModel {
 		'film_type_id' => array(
 			'numeric' => array(
 				'rule' => array('numeric'),
-				'message' => 'Musi byc wartością numeryczną',
+				'message' => 'Musi byc wartością numeryczną.',
 				//'allowEmpty' => false,
 				//'required' => false,
 				//'last' => false, // Stop validation after this rule
@@ -30,13 +30,22 @@ class Film extends AppModel {
 		),
 		'polish_title' => array(
             'length' => array( 
-            	'rule' => array('maxLength', 10)),
-				'message' => 'Za długi tytuł'
+            	'rule' => array('maxLength', 255),
+				'message' => 'Za długi tytuł filmu.',
+        	),
         ),
         'original_title' => array(
             'length' => array( 
-            	'rule' => array('maxLength', 10)),
-				'message' => 'Za długi tytuł'
+            	'rule' => array('maxLength', 255),
+				'message' => 'Za długi tytuł filmu.',
+        	),
+        ),
+        'production_year' => array(
+            'numeric' => array( 
+            	'rule' => '/^[0-9]{4,4}$/',
+        		'allowEmpty' => true,
+				'message' => 'Niepoprawny format dla roku produkcji.'
+        	),
         ),
 	);
 
@@ -56,15 +65,14 @@ class Film extends AppModel {
 			'order' => ''
 		)
 	);
-
-/**
+	/**
  * hasMany associations
  *
  * @var array
  */
 	public $hasMany = array(
-		'Copy' => array(
-			'className' => 'Copy',
+		'Hire' => array(
+			'className' => 'Hire',
 			'foreignKey' => 'film_id',
 			'dependent' => false,
 			'conditions' => '',
@@ -77,8 +85,7 @@ class Film extends AppModel {
 			'counterQuery' => ''
 		)
 	);
-
-
+	
 /**
  * hasAndBelongsToMany associations
  *

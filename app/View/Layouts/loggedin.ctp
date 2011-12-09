@@ -13,7 +13,7 @@
 	<?php echo $this->Html->image('/img/wyp_logo.png', array('alt'=>'Kinomaniak', 'url'=>array('controller' => 'films', 'action' => 'index'))); ?>
 	<nav class="user_menu">
 		<ul>
-			<li>Koszyk</li>
+						<li><?php echo $this->Html->link('Koszyk',array('controller' => 'carts', 'action' => 'index'), array()); ?></li>
 			<li><?php echo $this->Html->link('Wyloguj',array('controller' => 'users', 'action' => 'logout'), array()); ?></li>
 		</ul>
 	</nav>
