@@ -26,7 +26,7 @@ echo '<h1>Zaawansowane szukanie</h1>';
 	<?php if(!empty($f)) {?>
 	<tr>
 		<td><?php echo $f['Film']['id']; ?></td>
-		<td><?php echo $f['Film']['polish_title'].'(oryg. '.$f['Film']['original_title'].')'; ?>
+		<td><?php echo $this->Html->link($f['Film']['polish_title'], array('controller' => 'films', 'action' => 'view', $f['Film']['id'])) .' (oryg. '.$f['Film']['original_title'].')';?>
 		</td>
 		<td><?php echo $f['Country'][0]['name']; ?></td>
 		<td><?php echo $f['Person'][0]['name'].' '.$f['Person'][0]['surname']; ?></td>

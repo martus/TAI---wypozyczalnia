@@ -28,11 +28,12 @@
 				</td>
 			</tr>
 			<tr>
-				<td><?php echo $this->Form->input('country_id', array('label' => 'Kraj', 'value' => $hires['Country']['name'])); ?>
+				<td><?php echo $this->Form->input('country_id', array('label' => 'Kraj', 'values' => $hires['Country']['name'], 'selected'=>$countr_id)); ?>
 				</td>
 			</tr>
 
 		</table>
+	
 	<?php echo $this->Form->end(__('Edytuj profil'));?>
 </div>
 
@@ -48,26 +49,27 @@
 			<th><?php echo __('Data ważności'); ?></th>
 			<th><?php //echo __('Id filmu'); ?></th>
 			<th><?php echo __('Tytul'); ?></th>
+			<th><?php echo __('Status'); ?></th>
 			<th class="actions"><?php echo __('');?></th>
 		</tr>
-		<?php
-		foreach ($hires['Hire'] as $hire): ?>
-		<?php $l++;?>
+		<?php 
+		for($i=0; $i < count($hire); $i++) {
+		$l++; ?>
 		<tr>
 			<td><?php echo $l;?></td>
-			<td><?php $zam=$hire['expiry_date']; echo date('Y-m-d', strtotime("$zam-7days"));?>
+			<td><?php $zam=$hire[$i]['hires']['expiry_date']; echo date('Y-m-d', strtotime("$zam-7days"));?>
 			</td>
 			<td><?php echo $zam; ?>
 			</td>
-			<td><?php //echo $hire['film_id'];?></td>
-			<td><?php echo $hire['Film']['polish_title'].' (oryg. '.$this->Html->link(__($hire['Film']['original_title'].', '.$hire['Film']['production_year']), array('controller' => 'films', 'action' => 'view', $hire['Film']['id'])).')';?>
+			<td><?php echo $hire[$i]['f']['polish_title'].' (oryg. '.$this->Html->link(__($hire[$i]['f']['original_title'].', '.$hire[$i]['f']['production_year']), array('controller' => 'films', 'action' => 'view', $hire[$i]['f']['id'])).')';?>
 			</td>
-			<td class="actions"><?php //echo (date("Y-m-d")==$hire['hires']['expiry_date']) ? 	 $this->Form->postLink(__('zrezygnuj'), array('controller' => 'hires', 'action' => 'delete', $hire['hires']['id']),
-		// null, __('Na pewno chcesz zrezygnować z rezerwacji nr # %s?', $hire['hires']['id'])) : ''; ?>
+			<td class="actions"><?php  echo (date("Y-m-d")<=$hire[$i]['hires']['expiry_date'] and $hire[$i]['hires']['status']=='aktywny') ? $this->Form->postLink(__('oglądaj'), array('controller' => 'hires', 'action' => 'play', $hire[$i]['hires']['id']),
+	 null, __('Na pewno chcesz zobaczyc film?', $hire[$i]['hires']['id'])) : 'nieaktywny'; ?>
 			</td>
 		</tr>
-		<?php endforeach; ?>
+		<?php } ?>
 	</table>
 	<?php endif; ?>
+	
 
 </div>

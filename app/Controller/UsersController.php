@@ -226,7 +226,7 @@ function initDB() {
 		    			return $this->redirect('/managements/manager');
 		    			break;
 		    		case 3:
-		    			return $this->redirect($this->Auth->redirect());
+		    			return $this->redirect('/films');
 		    			break;
 		    		default:
 		    			return $this->redirect($this->Auth->redirect());

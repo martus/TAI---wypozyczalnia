@@ -7,7 +7,7 @@ App::uses('AppController', 'Controller');
  */
 class ClientsController extends AppController {
 
-
+	var $uses = array('Hire', 'Client');
 	/**
 	 * index method
 	 *
@@ -103,14 +103,19 @@ class ClientsController extends AppController {
 		$this->Client->user_id = $uid;
 		//$condition = 'user_id = '.$uid.'';
 		$a = array();
-		$a = $this->Client->find('all'/*, array('conditions' => $condition)*/);
+		
+		$a = $this->Client->find('all', array('conditions' => array("user_id"=>"$uid")));
+		$b = $this->Hire->query("select * from hires join films f on f.id=hires.film_id where user_id=$uid ORDER BY expiry_date DESC");
 		$this->set('hires', $a[0]);
+		$this->set('hire', $b);
+		//debug($b[0]['hires']);
 		$id = $a[0]['Client']['id'];
-		$this->edit_profile($id);
+		$country_id = $a[0]['Client']['country_id'];
+		$this->edit_profile($id, $country_id);
 		
 	}
 
-	public function edit_profile($id) {
+	public function edit_profile($id, $country_id) {
 		$this->Client->id = $id;
 		if (!$this->Client->exists()) {
 			throw new NotFoundException(__('Invalid client'));
@@ -127,7 +132,9 @@ class ClientsController extends AppController {
 		}
 		$countries = $this->Client->Country->find('list');
 		$users = $this->Client->User->find('list');
+		$this->set('countr_id',$country_id);
 		$this->set(compact('countries','users'));
+		
 	}
 
 }

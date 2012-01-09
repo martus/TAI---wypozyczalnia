@@ -7,7 +7,7 @@ App::uses('AppController', 'Controller');
  */
 class FilmsController extends AppController {
 
-	var $paginate = array('limit'=>1);
+	var $paginate = array('limit'=>4);
 
 	
 /**

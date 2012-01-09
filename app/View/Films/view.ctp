@@ -30,8 +30,8 @@
 		</dd>
 	</dl>
 </div>
-		<?php $filename = "/git/TAI---wypozyczalnia/app/webroot/img/film".$film['Film']['id'].".jpg";    
-		$imgSrc = !file_exists($filename) ? $filename : "/git/TAI---wypozyczalnia/app/webroot/img/default-video.jpg"; 
+		<?php $filename = "$this->base/app/webroot/img/film".$film['Film']['id'].".jpg";    
+		$imgSrc = !file_exists($filename) ? $filename : "$this->base/app/webroot/img/default-video.jpg"; 
 		echo '<img src="'.$imgSrc.'" alt="default" />';?>
 
 <div class="actions">

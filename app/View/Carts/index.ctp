@@ -8,7 +8,7 @@ $suma = 0;
 	<tr>
 		<th>film &nbsp;</th>
 		<th>typ filmu&nbsp;</th>
-		<th>koszt/doba&nbsp;</th>
+		<th>koszt&nbsp;</th>
 		<th class="actions"><?php echo ''; ?></th>
 	</tr>
 	<?php foreach ($carts as $c): ?>
@@ -20,8 +20,7 @@ $suma = 0;
 		<td><?php echo $c['type']; ?>&nbsp;</td>
 		<td><?php echo $c['cost_per_day'].' zł'; ?>&nbsp;</td>
 		<td class="actions">
-			<?php // echo $this->Html->link(__('Edit'), array('action' => 'edit', $c['id'])); ?>
-			<?php //echo $this->Form->postLink(__('Zrezygnuj'), array('action' => 'delete', $c['id']), null, __('Are you sure you want to delete # %s?', $c['polish_title'])); ?>
+			<?php echo $this->Form->postLink(__('Usuń'), array('action' => 'delete', $c['id']), null, __('Na pewno chcesz usunąć film z koszyka?', $c['polish_title'])); ?>
 		</td>
 	</tr>
 	<?php endforeach; ?>

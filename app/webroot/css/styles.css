@@ -40,6 +40,11 @@ header > nav ul li {
 	background-color: #DC84BA;
 	border-radius:5px;
 }
+#advanced_search {
+	margin: 0 0 0 460px;
+	font-size: small;
+}
+
 #main {
 	margin:10px 0 10px 0;
 	border-radius:10px;

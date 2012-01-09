@@ -8,52 +8,37 @@
 <?php echo $this->Html->css('styles'); ?>
 </head>
 <body>
-<div id="wrapper">
-<header>
-	<?php echo $this->Html->image('/img/wyp_logo.png', array('alt'=>'Kinomaniak', 'url'=>array('controller' => 'films', 'action' => 'index'))); ?>
-	<nav class="user_menu">
-		<ul>
-			<li><?php echo $this->Html->link('Koszyk',array('controller' => 'carts', 'action' => 'index'), array()); ?></li>
-			<li><?php echo $this->Html->link('Zaloguj',array('controller' => 'users', 'action' => 'login'), array()); ?></li>
-			<li><?php echo $this->Html->link('Rejestracja',array('controller' => 'users', 'action' => 'register'), array()); ?></li>
-		</ul>
-	</nav>
-	<?php echo $this->element('searcher'); ?>
-	
-</header>
-<div id="main">
-	<div id="side_menu">
-		<div id="categories">
-			<h2>Kategorie</h2>
-			<ul>
-				<li>
-					Kategoria 1
-					<ul>
-						<li>Subkategoria 1</li>
-						<li>Subkategoria 2</li>
-					</ul>
-				</li>
-				<li>
-					Kategoria 2
-					<ul>
-						<li>Subkategoria 1</li>
-						<li>Subkategoria 2</li>
-					</ul>
-				</li>
-			</ul>
-		</div>
-	</div>
-	<!-- Here's where I want my views to be displayed -->
-	<div id="content">
-	<?php echo $this->Session->flash(); ?>
-	<?php echo $content_for_layout ?>
-	</div>
-</div>
+	<div id="wrapper">
+		<header>
+		<?php echo $this->Html->image('/img/wyp_logo.png', array('alt'=>'Kinomaniak', 'url'=>array('controller' => 'films', 'action' => 'index'))); ?>
+			<nav class="user_menu">
+				<ul>
+					<li><?php echo $this->Html->link('Filmy',array('controller' => 'films', 'action' => 'index'), array()); ?>
+					</li>
+					<li><?php echo $this->Html->link('Koszyk',array('controller' => 'carts', 'action' => 'index'), array()); ?>
+					</li>
+					<li><?php echo $this->Html->link('Zaloguj',array('controller' => 'users', 'action' => 'login'), array()); ?>
+					</li>
+					<li><?php echo $this->Html->link('Rejestracja',array('controller' => 'users', 'action' => 'register'), array()); ?>
+					</li>
+				</ul>
+			</nav>
+			<?php echo $this->element('searcher'); ?>
 
-<!-- Add a footer to each displayed page -->
-<footer>
-	<p>Created by Marta Zagańczyk & Wojciech Ziółek</p>
-</footer>
-</div>
+		</header>
+		<div id="main">
+		<?php echo $this->element('categories'); ?>
+			<!-- Here's where I want my views to be displayed -->
+			<div id="content">
+			<?php echo $this->Session->flash(); ?>
+			<?php echo $content_for_layout ?>
+			</div>
+		</div>
+
+		<!-- Add a footer to each displayed page -->
+		<footer>
+			<p>Created by Marta Zagańczyk & Wojciech Ziółek</p>
+		</footer>
+	</div>
 </body>
 </html>

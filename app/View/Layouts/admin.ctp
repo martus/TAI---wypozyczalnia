@@ -21,6 +21,7 @@
 	
 </header>
 <div id="main">
+
 	<!-- Here's where I want my views to be displayed -->
 	<div id="content">
 	<?php echo $this->Session->flash(); ?>

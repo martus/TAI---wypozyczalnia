@@ -8,22 +8,22 @@ App::uses('AppController', 'Controller');
 class HiresController extends AppController {
 
 
-/**
- * index method
- *
- * @return void
- */
+	/**
+	 * index method
+	 *
+	 * @return void
+	 */
 	public function index() {
 		$this->Hire->recursive = 0;
 		$this->set('hires', $this->paginate());
 	}
 
-/**
- * view method
- *
- * @param string $id
- * @return void
- */
+	/**
+	 * view method
+	 *
+	 * @param string $id
+	 * @return void
+	 */
 	public function view($id = null) {
 		$this->Hire->id = $id;
 		if (!$this->Hire->exists()) {
@@ -32,11 +32,11 @@ class HiresController extends AppController {
 		$this->set('hire', $this->Hire->read(null, $id));
 	}
 
-/**
- * add method
- *
- * @return void
- */
+	/**
+	 * add method
+	 *
+	 * @return void
+	 */
 	public function add() {
 		if ($this->request->is('post')) {
 			$this->Hire->create();
@@ -52,12 +52,12 @@ class HiresController extends AppController {
 		$this->set(compact('users', 'films'));
 	}
 
-/**
- * edit method
- *
- * @param string $id
- * @return void
- */
+	/**
+	 * edit method
+	 *
+	 * @param string $id
+	 * @return void
+	 */
 	public function edit($id = null) {
 		$this->Hire->id = $id;
 		if (!$this->Hire->exists()) {
@@ -78,12 +78,12 @@ class HiresController extends AppController {
 		$this->set(compact('users', 'films'));
 	}
 
-/**
- * delete method
- *
- * @param string $id
- * @return void
- */
+	/**
+	 * delete method
+	 *
+	 * @param string $id
+	 * @return void
+	 */
 	public function delete($id = null) {
 		if (!$this->request->is('post')) {
 			throw new MethodNotAllowedException();
@@ -98,5 +98,24 @@ class HiresController extends AppController {
 		}
 		$this->Session->setFlash(__('Hire was not deleted'));
 		$this->redirect(array('action' => 'index'));
+	}
+
+	public function play($hire_id) {
+		$this->Hire->recursive = 2;
+		$this->Hire->id = $hire_id;
+		$data = $this->Hire->read(null, $hire_id);
+		
+		if($data['Hire']['status']=='aktywny' && $data['Hire']['expiry_date']>=date('Y-m-d')) {
+			//zmienic status
+			$sql = "UPDATE hires set status='nieaktywny' where id='".$hire_id."'";
+			$this->Hire->query($sql);
+				
+			$this->set('film_src', $data['Film']['film_src']);
+			$this->set('mov', $data['Film']);
+				
+		}else {
+			$this->redirect(array('controller' => 'clients', 'action' => 'profile'));
+		}
+
 	}
 }
