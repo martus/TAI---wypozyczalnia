@@ -27,7 +27,7 @@
 
 		</header>
 		<div id="main">
-		<?php echo $this->element('categories'); ?>
+		<?php echo $this->element('categories', array('items' => $bgenres)); ?>
 			<!-- Here's where I want my views to be displayed -->
 			<div id="content">
 			<?php echo $this->Session->flash(); ?>

@@ -31,6 +31,8 @@ class FilmsGenresController extends AppController {
 		}
 		$this->set('filmsGenre', $this->FilmsGenre->read(null, $id));
 	}
+	
+
 
 /**
  * add method

@@ -4077,3 +4077,734 @@
 #9 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(CartsController), Object(CakeRequest), Object(CakeResponse))
 #10 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #11 {main}
+2012-01-13 14:51:18 Error: [MissingActionException] Action UsersController::favicon.ico() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-13 14:51:19 Error: [MissingActionException] Action UsersController::favicon.ico() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-13 14:51:19 Error: [MissingActionException] Action UsersController::favicon.ico() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-13 15:34:18 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-01-13 15:34:18 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-01-13 15:34:18 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-01-13 15:34:21 Error: [NotFoundException] Invalid film
+#0 [internal function]: FilmsController->view('favicon.ico')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 15:34:21 Error: [NotFoundException] Invalid film
+#0 [internal function]: FilmsController->view('favicon.ico')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 15:34:21 Error: [NotFoundException] Invalid film
+#0 [internal function]: FilmsController->view('favicon.ico')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 15:35:11 Error: [MissingActionException] Action ManagementsController::favicon.ico() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(ManagementsController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-13 15:35:11 Error: [MissingActionException] Action ManagementsController::favicon.ico() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(ManagementsController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-13 15:35:12 Error: [MissingActionException] Action ManagementsController::favicon.ico() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(ManagementsController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-13 15:36:56 Error: [MissingControllerException] Controller class CopiesController could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-01-13 15:36:56 Error: [MissingControllerException] Controller class CopiesController could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-01-13 15:36:56 Error: [MissingControllerException] Controller class CopiesController could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-01-13 15:36:57 Error: [MissingControllerException] Controller class CopiesController could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-01-13 16:33:26 Error: [MissingActionException] Action FilmsController::film_genres() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-13 16:33:27 Error: [MissingActionException] Action FilmsController::film_genres() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-13 16:33:27 Error: [MissingActionException] Action FilmsController::film_genres() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-13 16:33:27 Error: [MissingActionException] Action FilmsController::film_genres() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-13 16:34:58 Error: [MissingActionException] Action FilmsController::film_genres() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-13 16:35:00 Error: [MissingActionException] Action FilmsController::film_genres() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-13 16:35:08 Error: [MissingActionException] Action FilmsController::film_genres() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-13 16:35:09 Error: [MissingActionException] Action FilmsController::film_genres() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-13 16:35:23 Error: [MissingControllerException] Controller class FilmsgenreController could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-01-13 16:35:23 Error: [MissingControllerException] Controller class FilmsgenreController could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-01-13 16:35:23 Error: [MissingControllerException] Controller class FilmsgenreController could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-01-13 16:35:23 Error: [MissingControllerException] Controller class FilmsgenreController could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-01-13 16:35:26 Error: [MissingControllerException] Controller class FilmsgenreController could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-01-13 16:35:27 Error: [MissingControllerException] Controller class FilmsgenreController could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-01-13 16:35:27 Error: [MissingControllerException] Controller class FilmsgenreController could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-01-13 16:35:27 Error: [MissingControllerException] Controller class FilmsgenreController could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-01-13 16:35:33 Error: [MissingControllerException] Controller class FilmsGenreController could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-01-13 16:35:33 Error: [MissingControllerException] Controller class FilmsGenreController could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-01-13 16:35:34 Error: [MissingControllerException] Controller class FilmsGenreController could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-01-13 16:35:34 Error: [MissingControllerException] Controller class FilmsGenreController could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-01-13 16:35:51 Error: [MissingActionException] Action FilmsGenresController::favicon.ico() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-13 16:35:51 Error: [MissingActionException] Action FilmsGenresController::favicon.ico() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-13 16:35:51 Error: [MissingActionException] Action FilmsGenresController::favicon.ico() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-13 16:35:55 Error: [NotFoundException] Invalid genre
+#0 [internal function]: GenresController->view('favicon.ico')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(GenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(GenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:35:55 Error: [NotFoundException] Invalid genre
+#0 [internal function]: GenresController->view('favicon.ico')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(GenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(GenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:35:56 Error: [NotFoundException] Invalid genre
+#0 [internal function]: GenresController->view('favicon.ico')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(GenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(GenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:48:50 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsGenresController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsGenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:48:59 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsGenresController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsGenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:49:20 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsGenresController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsGenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:49:21 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsGenresController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsGenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:49:22 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsGenresController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsGenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:49:23 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsGenresController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsGenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:49:24 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsGenresController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsGenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:49:25 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsGenresController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsGenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:49:25 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsGenresController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsGenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:49:25 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsGenresController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsGenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:49:26 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsGenresController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsGenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:49:26 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsGenresController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsGenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:49:26 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsGenresController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsGenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:49:26 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsGenresController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsGenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:49:26 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsGenresController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsGenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:49:26 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsGenresController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsGenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:49:26 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsGenresController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsGenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:49:26 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsGenresController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsGenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:49:26 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsGenresController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsGenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:49:26 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsGenresController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsGenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:49:26 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsGenresController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsGenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:49:26 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsGenresController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsGenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:49:27 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsGenresController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsGenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:49:27 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsGenresController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsGenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:49:27 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsGenresController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsGenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:49:27 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsGenresController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsGenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:49:27 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsGenresController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsGenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:49:27 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsGenresController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsGenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:49:27 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsGenresController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsGenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:49:27 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsGenresController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsGenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:49:27 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsGenresController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsGenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:49:27 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsGenresController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsGenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:49:27 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsGenresController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsGenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:49:28 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsGenresController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsGenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:49:28 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsGenresController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsGenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:49:28 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsGenresController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsGenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:49:28 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsGenresController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsGenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:49:28 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsGenresController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsGenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:49:28 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsGenresController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsGenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:49:28 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsGenresController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsGenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:49:28 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsGenresController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsGenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:49:28 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsGenresController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsGenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:49:28 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsGenresController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsGenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:49:28 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsGenresController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsGenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:49:28 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsGenresController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsGenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:49:50 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsGenresController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsGenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:50:30 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsGenresController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsGenresController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:52:22 Error: [MissingActionException] Action FilmsGenresController::films() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-13 16:52:22 Error: [MissingActionException] Action FilmsGenresController::films() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-13 16:52:22 Error: [MissingActionException] Action FilmsGenresController::films() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-13 16:52:22 Error: [MissingActionException] Action FilmsGenresController::films() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsGenresController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-13 16:54:02 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:54:03 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:54:04 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:54:04 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:54:04 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:54:04 Error: [NotFoundException] Invalid films genre
+#0 [internal function]: FilmsController->film_genres('1')
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsController), Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:54:22 Error: [MissingViewException] View file "D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\View\Films\film_genres.ctp" is missing.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\View\View.php(363): View->_getViewFileName(NULL)
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(899): View->render(NULL, NULL)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(114): Controller->render()
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-01-13 16:54:53 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-13 16:55:43 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-13 16:55:52 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-13 16:55:53 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-13 16:56:38 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-13 16:56:48 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-13 17:01:36 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre_id' in 'where clause'
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `Film`.`...', Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(645): DboSource->execute('SELECT `Film`.`...', Array, Array)
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(1040): DboSource->fetchAll('SELECT `Film`.`...', false)
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Model.php(2458): DboSource->read(Object(Film), Array)
+#5 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\Controller\FilmsController.php(61): Model->find('all', Array)
+#6 [internal function]: FilmsController->film_genres('1')
+#7 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsController), Array)
+#8 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#9 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsController), Object(CakeRequest), Object(CakeResponse))
+#10 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-01-13 17:02:41 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre_id' in 'where clause'
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `Film`.`...', Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(645): DboSource->execute('SELECT `Film`.`...', Array, Array)
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(1040): DboSource->fetchAll('SELECT `Film`.`...', false)
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Model.php(2458): DboSource->read(Object(Film), Array)
+#5 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\Controller\FilmsController.php(61): Model->find('all', Array)
+#6 [internal function]: FilmsController->film_genres('1')
+#7 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsController), Array)
+#8 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#9 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsController), Object(CakeRequest), Object(CakeResponse))
+#10 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-01-13 17:02:46 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre_id' in 'where clause'
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `Film`.`...', Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(645): DboSource->execute('SELECT `Film`.`...', Array, Array)
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(1040): DboSource->fetchAll('SELECT `Film`.`...', false)
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Model.php(2458): DboSource->read(Object(Film), Array)
+#5 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\Controller\FilmsController.php(61): Model->find('all', Array)
+#6 [internal function]: FilmsController->film_genres('1')
+#7 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsController), Array)
+#8 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#9 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsController), Object(CakeRequest), Object(CakeResponse))
+#10 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-01-13 17:02:46 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre_id' in 'where clause'
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `Film`.`...', Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(645): DboSource->execute('SELECT `Film`.`...', Array, Array)
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(1040): DboSource->fetchAll('SELECT `Film`.`...', false)
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Model.php(2458): DboSource->read(Object(Film), Array)
+#5 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\Controller\FilmsController.php(61): Model->find('all', Array)
+#6 [internal function]: FilmsController->film_genres('1')
+#7 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsController), Array)
+#8 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#9 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsController), Object(CakeRequest), Object(CakeResponse))
+#10 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-01-13 17:02:46 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre_id' in 'where clause'
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `Film`.`...', Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(645): DboSource->execute('SELECT `Film`.`...', Array, Array)
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(1040): DboSource->fetchAll('SELECT `Film`.`...', false)
+#4 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Model.php(2458): DboSource->read(Object(Film), Array)
+#5 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\Controller\FilmsController.php(61): Model->find('all', Array)
+#6 [internal function]: FilmsController->film_genres('1')
+#7 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsController), Array)
+#8 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#9 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsController), Object(CakeRequest), Object(CakeResponse))
+#10 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-01-13 17:09:33 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-13 17:14:02 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'films.id' in 'on clause'
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT Film.* F...', Array)
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(645): DboSource->execute('SELECT Film.* F...', Array, Array)
+#3 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Datasource\DboSource.php(513): DboSource->fetchAll('SELECT Film.* F...')
+#4 [internal function]: DboSource->query('SELECT Film.* F...')
+#5 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Model\Model.php(2850): call_user_func_array(Array, Array)
+#6 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\Controller\FilmsController.php(62): Model->query('SELECT Film.* F...')
+#7 [internal function]: FilmsController->film_genres('1')
+#8 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(FilmsController), Array)
+#9 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#10 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(FilmsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-01-13 17:14:21 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-13 17:35:57 Error: [MissingActionException] Action SearchesController::favicon.ico() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(SearchesController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-13 17:35:57 Error: [MissingActionException] Action SearchesController::favicon.ico() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(SearchesController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-13 17:35:58 Error: [MissingActionException] Action SearchesController::favicon.ico() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(SearchesController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-13 17:41:19 Error: [MissingActionException] Action ClientsController::favicon.ico() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-13 17:41:19 Error: [MissingActionException] Action ClientsController::favicon.ico() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-01-13 17:41:19 Error: [MissingActionException] Action ClientsController::favicon.ico() could not be found.
+#0 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Apps\xampp\htdocs\git\TAI---wypozyczalnia\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

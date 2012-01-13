@@ -9,23 +9,23 @@ class FilmsController extends AppController {
 
 	var $paginate = array('limit'=>4);
 
-	
-/**
- * index method
- *
- * @return void
- */
+
+	/**
+	 * index method
+	 *
+	 * @return void
+	 */
 	public function index() {
 		$this->Film->recursive = 0;
 		$this->set('films', $this->paginate());
 	}
 
-/**
- * view method
- *
- * @param string $id
- * @return void
- */
+	/**
+	 * view method
+	 *
+	 * @param string $id
+	 * @return void
+	 */
 	public function view($id = null) {
 		$this->Film->id = $id;
 		if (!$this->Film->exists()) {
@@ -34,11 +34,11 @@ class FilmsController extends AppController {
 		$this->set('film', $this->Film->read(null, $id));
 	}
 
-/**
- * add method
- *
- * @return void
- */
+	/**
+	 * add method
+	 *
+	 * @return void
+	 */
 	public function add() {
 		if ($this->request->is('post')) {
 			$this->Film->create();
@@ -56,12 +56,19 @@ class FilmsController extends AppController {
 		$this->set(compact('filmTypes', 'countries', 'genres', 'people'));
 	}
 
-/**
- * edit method
- *
- * @param string $id
- * @return void
- */
+	public function film_genres($id) {
+
+		$data = $this->Film->query('SELECT Film.* FROM films Film JOIN films_genres fg ON fg.film_id = Film.id
+									WHERE fg.genre_id ="'.$id.'" ');
+		$this->set('films', $data,  $this->paginate());
+	}
+
+	/**
+	 * edit method
+	 *
+	 * @param string $id
+	 * @return void
+	 */
 	public function edit($id = null) {
 		$this->Film->id = $id;
 		if (!$this->Film->exists()) {
@@ -84,12 +91,12 @@ class FilmsController extends AppController {
 		$this->set(compact('filmTypes', 'countries', 'genres', 'people'));
 	}
 
-/**
- * delete method
- *
- * @param string $id
- * @return void
- */
+	/**
+	 * delete method
+	 *
+	 * @param string $id
+	 * @return void
+	 */
 	public function delete($id = null) {
 		if (!$this->request->is('post')) {
 			throw new MethodNotAllowedException();
@@ -105,6 +112,6 @@ class FilmsController extends AppController {
 		$this->Session->setFlash(__('Film was not deleted'));
 		$this->redirect(array('action' => 'index'));
 	}
-	
+
 
 }

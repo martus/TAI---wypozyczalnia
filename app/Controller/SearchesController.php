@@ -21,23 +21,25 @@ class SearchesController extends AppController {
 
 		if($this->request->is('get')) {
 			$value = $this->params["url"]["value"];
-			$searches = explode(" ",$value);
+			$searches = explode(" ", $value);
+			if($value!=NULL) {
 
-			foreach ($searches as $s) {
-				for($i=0;$i<count($search_fields);$i++){
-					if($search_fields[$i] !="") {
-						array_push($conditions,array("$search_fields[$i] LIKE "=>"%$s%"));
+				foreach ($searches as $s) {
+					for($i=0;$i<count($search_fields);$i++){
+						if($search_fields[$i] !="") {
+							array_push($conditions,array("$search_fields[$i] LIKE "=>"%$s%"));
+						}
 					}
+					array_push($or_conditions,array('OR'=>$conditions));
+					$conditions = array();
 				}
-				array_push($or_conditions,array('OR'=>$conditions));
-				$conditions = array();
-			}
-			$final_conditions = array('OR'=>$or_conditions);//array('contain' => array('FilmsPerson')),
+				$final_conditions = array('OR'=>$or_conditions);//array('contain' => array('FilmsPerson')),
 
-			$films = $this->Film->find('all',
-			array(
-		'limit'=>10,
-		'conditions'=>$final_conditions,'fields'=>array('Film.*')));
+				$films = $this->Film->find('all',
+				array(
+					'limit'=>10,
+					'conditions'=>$final_conditions,'fields'=>array('Film.*')));
+			}
 		}
 		$this->set('films',$films);
 	}
@@ -78,10 +80,10 @@ class SearchesController extends AppController {
 		));
 
 		if ($this->request->is('post')) {
-				$ex = 'brak wyników';
-			    $this->Film->set($this->data);
-			    $this->Genre->set($this->data);
-			    $this->Person->set($this->data);
+			$ex = 'brak wyników';
+			$this->Film->set($this->data);
+			$this->Genre->set($this->data);
+			$this->Person->set($this->data);
 			if($this->Film->validates() && $this->Genre->validates() && $this->Person->validates()){
 				$gatunek = $this->data['Genre']['name'];
 				$tytul = $this->data['Film']['polish_title'];
@@ -123,7 +125,7 @@ class SearchesController extends AppController {
 					}
 				}
 				$final_conditions = $or_conditions;
-				if(!empty($final_conditions)){	
+				if(!empty($final_conditions)){
 					$data = $this->Film->find('all',
 					array('joins' => $jointables,
 					'limit'=>20,
@@ -134,7 +136,7 @@ class SearchesController extends AppController {
 			$this->set('films',$data);
 		}
 	}
-	
+
 
 
 }

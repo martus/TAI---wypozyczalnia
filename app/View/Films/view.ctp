@@ -8,22 +8,23 @@
 			<?php echo h($film['Film']['id']); ?>
 			&nbsp;
 		</dd>
-		<dt><?php echo __('Original Title'); ?></dt>
+		<dt><?php echo __('Tytuł'); ?></dt>
 		<dd>
-			<?php echo h($film['Film']['original_title']); ?>
+			<?php echo h($film['Film']['polish_title']).' (oryg. '.h($film['Film']['original_title']).')'; ?>
 			&nbsp;
 		</dd>
-		<dt><?php echo __('Polish Title'); ?></dt>
-		<dd>
-			<?php echo h($film['Film']['polish_title']); ?>
-			&nbsp;
-		</dd>
-		<dt><?php echo __('Production Year'); ?></dt>
+		<dt><?php echo __('Rok produkcji'); ?></dt>
 		<dd>
 			<?php echo h($film['Film']['production_year']); ?>
 			&nbsp;
 		</dd>
-		<dt><?php echo __('Film Type'); ?></dt>
+		<dt><?php echo __('Opis'); ?></dt>
+		<dd>
+			<?php echo h($film['Film']['description']); ?>
+			&nbsp;
+		</dd>
+		
+		<dt><?php echo __('Typ filmu'); ?></dt>
 		<dd>
 			<?php echo $this->Html->link($film['FilmType']['id'], array('controller' => 'film_types', 'action' => 'view', $film['FilmType']['id'])); ?>
 			&nbsp;
@@ -43,8 +44,6 @@
 		<li><?php echo $this->Html->link(__('New Film'), array('action' => 'add')); ?> </li>
 		<li><?php echo $this->Html->link(__('List Film Types'), array('controller' => 'film_types', 'action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New Film Type'), array('controller' => 'film_types', 'action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List Copies'), array('controller' => 'copies', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Copy'), array('controller' => 'copies', 'action' => 'add')); ?> </li>
 		<li><?php echo $this->Html->link(__('List Countries'), array('controller' => 'countries', 'action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New Country'), array('controller' => 'countries', 'action' => 'add')); ?> </li>
 		<li><?php echo $this->Html->link(__('List Genres'), array('controller' => 'genres', 'action' => 'index')); ?> </li>
@@ -53,37 +52,7 @@
 		<li><?php echo $this->Html->link(__('New Person'), array('controller' => 'people', 'action' => 'add')); ?> </li>
 	</ul>
 </div>
-<div class="related">
-	<h3><?php echo __('Related Copies');?></h3>
-	<?php if (!empty($film['Copy'])):?>
-	<table cellpadding = "0" cellspacing = "0">
-	<tr>
-		<th><?php echo __('Id'); ?></th>
-		<th><?php echo __('Film Id'); ?></th>
-		<th class="actions"><?php echo __('Actions');?></th>
-	</tr>
-	<?php
-		$i = 0;
-		foreach ($film['Copy'] as $copy): ?>
-		<tr>
-			<td><?php echo $copy['id'];?></td>
-			<td><?php echo $copy['film_id'];?></td>
-			<td class="actions">
-				<?php echo $this->Html->link(__('View'), array('controller' => 'copies', 'action' => 'view', $copy['id'])); ?>
-				<?php echo $this->Html->link(__('Edit'), array('controller' => 'copies', 'action' => 'edit', $copy['id'])); ?>
-				<?php echo $this->Form->postLink(__('Delete'), array('controller' => 'copies', 'action' => 'delete', $copy['id']), null, __('Are you sure you want to delete # %s?', $copy['id'])); ?>
-			</td>
-		</tr>
-	<?php endforeach; ?>
-	</table>
-<?php endif; ?>
 
-	<div class="actions">
-		<ul>
-			<li><?php echo $this->Html->link(__('New Copy'), array('controller' => 'copies', 'action' => 'add'));?> </li>
-		</ul>
-	</div>
-</div>
 <div class="related">
 	<h3><?php echo __('Related Countries');?></h3>
 	<?php if (!empty($film['Country'])):?>

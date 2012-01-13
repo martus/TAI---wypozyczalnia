@@ -21,7 +21,7 @@
 	
 </header>
 <div id="main">
-	<?php echo $this->element('categories'); ?>
+	<?php echo $this->element('categories', array('items' => $bgenres)); ?>
 		<div id="admin_menu">
 		<h2>Menu administracyjne</h2>
 			<ul>
